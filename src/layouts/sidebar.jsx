@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 import { CircleUser, Menu, Package2 } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
-import { SomeIcon } from "lucide-react"; // Import the appropriate icon
+import { FileText } from "lucide-react";
 
 const Layout = () => {
   return (
@@ -37,7 +37,7 @@ const updatedNavItems = [
   {
     title: "Articles",
     to: "/articles",
-    icon: <SomeIcon className="h-4 w-4" />, // Replace `SomeIcon` with an appropriate icon
+    icon: <FileText className="h-4 w-4" />,
   },
 ];
 
